@@ -38,11 +38,11 @@ export default function TextForm(props) {
                 <h1>{props.heading}</h1>
                 <textarea className="form-control" value = {text}  onChange={handleOnChange} style={{backgroundColor:props.mode==='light'?'white':'#212529',color:props.mode==='dark'?'white':'black'}}  id="myBox" rows="10"></textarea>
             </div>  
-            <button className="btn btn-primary mx-2" onClick={handleUpCase}>Convert To Uppercaser</button>
-            <button className="btn btn-primary mx-2" onClick={handleLoCase}>Convert To LowerCase</button>
-            <button className="btn btn-primary mx-2" onClick={handleOnCopy}>Copy Text</button>
-            <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extra Space</button>
-            <button className="btn btn-primary mx-2" onClick={handleOnClear}>Clear Text</button>
+            <button className="btn btn-primary mx-2 my-1" onClick={handleUpCase}>Convert To Uppercaser</button>
+            <button className="btn btn-primary mx-2 my-1" onClick={handleLoCase}>Convert To LowerCase</button>
+            <button className="btn btn-primary mx-2 my-1" onClick={handleOnCopy}>Copy Text</button>
+            <button className="btn btn-primary mx-2 my-1" onClick={handleExtraSpaces}>Remove Extra Space</button>
+            <button className="btn btn-primary mx-2 my-1" onClick={handleOnClear}>Clear Text</button>
             <div className="container my-3" style={{color:props.mode==='dark'?'white':'black'}}>
                 <h2>Your Text Summary</h2>
                 <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
