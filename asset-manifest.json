@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TextManipulator/static/css/main.dc4d6ff2.css",
-    "main.js": "/TextManipulator/static/js/main.3dd99c45.js",
+    "main.js": "/TextManipulator/static/js/main.c151ea0b.js",
     "index.html": "/TextManipulator/index.html",
     "main.dc4d6ff2.css.map": "/TextManipulator/static/css/main.dc4d6ff2.css.map",
-    "main.3dd99c45.js.map": "/TextManipulator/static/js/main.3dd99c45.js.map"
+    "main.c151ea0b.js.map": "/TextManipulator/static/js/main.c151ea0b.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.3dd99c45.js"
+    "static/js/main.c151ea0b.js"
   ]
 }
